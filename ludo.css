@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+}
+.container1,.container3{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+.container2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.r1-c1,.r1-c3,.r3-c1,.r3-c3{
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 30px;
+}
+.r1-c2,.r3-c2{
+    width: 20%;
+    height: 100%;
+    border:1px solid black;
+}
+.r2-c1,.r2-c3{
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+}
+.r2-c2{
+    width: 20%;
+    height: 100%;
+}
+.mid1{
+    border-top: 60px solid rgb(255, 251, 0);
+    border-right: 60px solid rgb(2, 2, 252);
+    border-bottom: 60px solid red;
+    border-left: 60px solid rgb(7, 161, 7);
+}
+
+.r1-c1{
+   background-color: rgb(7, 161, 7);
+}
+.r1-c3{
+    background-color: rgb(255, 251, 0);
+}
+.r3-c1{
+    background-color: red;
+}
+.r3-c3{
+    background-color: rgb(2, 2, 252);
+}
+.green,.yellow, .red, .blue{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50px;
+}
+.green-dot{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(7, 161, 7);
+    border-radius: 50%;
+   margin: 15px;
+}
+.yellow-dot{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 251, 0);
+    border-radius: 50%;
+   margin: 15px;
+}
+.red-dot{
+    width: 40px;
+    height: 40px;
+    background-color:red;
+    border-radius: 50%;
+   margin: 15px;
+}
+.blue-dot{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(2, 2, 252);
+    border-radius: 50%;
+   margin: 15px;
+}
+.box{
+    width: 40px;
+    height: 100%;
+    border: 1px solid black;
+}
+.box2{
+    width: 40px;
+    height: 100%;
+    border: 1px solid black;
+}
+.yellow-box{
+    background-color: rgb(255, 251, 0);
+}
+.green-box{
+    background-color: rgb(7, 161, 7);
+}
+.red-box{
+    background-color: red;
+}
+.blue-box{
+    background-color: rgb(2, 2, 252);
+}
+span{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
